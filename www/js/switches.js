@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-   // document.addEventListener("deviceready",onDeviceReady,false);
-//});
+   document.addEventListener("deviceready",onDeviceReady,false);
+});
 
-//function onDeviceReady(){
+  function onDeviceReady(){
     //write your function body here
 
         for (let index = 0 ; index < 17; index++) {
@@ -1177,5 +1177,5 @@ $(document).ready(function(){
        });
 
 
-  //}    //);
-});
+  }    //);
+//});
